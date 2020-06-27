@@ -1,0 +1,35 @@
+#
+
+name: "lili"
+Name: "lili"
+
+
+info1:
+  name: "a"
+  age: "18"
+
+info2: {name: "a", age: "18"}
+
+info3:
+  - name: lili
+
+value1: null
+value2: none
+value3: ~
+value4: Null
+
+time: 2020-01-01 11:11:11
+
+
+info: &data
+  name: "zxc"
+  ipone: 12312312312
+
+address:
+  <<: *data
+  age: 18
+
+
+
+
+
